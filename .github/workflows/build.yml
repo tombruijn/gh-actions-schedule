@@ -1,11 +1,11 @@
-on:
-  push:
-  schedule:
-    - cron: '0,15,25,35,45,55 * * * *'
-
-jobs:
-  schedule_build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Hello world
-        run: echo "Hello!"
+# on:
+#   push:
+#   schedule:
+#     - cron: '0,15,25,35,45,55 * * * *'
+#
+# jobs:
+#   schedule_build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Hello world
+#         run: echo "Hello!"
